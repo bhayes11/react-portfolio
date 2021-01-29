@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { HashRouter as Router, Route, Switch } from "react-router-dom";
 import Home from './containers/Home/Home';
 
 function App() {
@@ -7,7 +7,7 @@ function App() {
     <div>
       {/* // don't need anything outside of the routes */}
       {/* <Header /> */}
-      <Router>
+      <Router basename="/">
         <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/home" component={Home} />
