@@ -1,4 +1,5 @@
 import React from 'react';
+import bio from "../../assets/bio.png"
 
 const Home = () => {
     return (
@@ -13,7 +14,7 @@ const Home = () => {
                         </div>
                         <div className="row">
                             <div className="col-sm-12">
-                                <img src="assets/images/bio.png" className="float-left about-image" alt="Brian Hayes" width="40%" />
+                                <img className="float-left about-image" src={bio} alt="Brian Hayes" width="40%" />
                                 <p>
                                 As a media and technology professional, Brian Hayes has been
                                 involved in projects ranging from video production, illustration
@@ -34,7 +35,7 @@ const Home = () => {
                                 <h5 className="card-title text-center">Full Stack Web developer</h5>
                                 <a href="https://www.linkedin.com/in/brian-hayes-4a723948/" className="ml-5">LinkedIn</a>
                                 <a href="https://github.com/bhayes11" className="ml-5">Github</a>
-                                <a href="./assets/images/Brian_Hayes_Resume.pdf" className="ml-5">Resume</a>
+                                <a href="./assets/Brian_Hayes_Resume.pdf" className="ml-5">Resume</a>
                             </div>
                         </div>
                     </div>
