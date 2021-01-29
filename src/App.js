@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import { HashRouter as Router, Route, Switch } from "react-router-dom";
 import Home from './containers/Home/Home';
+import Portfolio from './containers/Portfolio/Portfolio';
+import Contact from './containers/Contact/Contact';
 
 function App() {
   return (
@@ -11,6 +13,8 @@ function App() {
         <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/home" component={Home} />
+          <Route exact path="/portfolio" component={Portfolio} />
+          <Route exact path="/contact" component={Contact} />
           {/* determines what component is routed to.
         below route (NoMatch) would be 404*/}
           {/* <Route component={NoMatch} /> */}
