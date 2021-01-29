@@ -3,11 +3,11 @@ import React from 'react';
 const Home = () => {
     return (
         <div>
-            <div classNameName="container">
-                <div classNameName="row">
-                    <div classNameName="col-sm-9 main-content">
-                        <div classNameName="row">
-                            <div classNameName="col-sm-12">
+            <div className="container">
+                <div className="row">
+                    <div className="col-sm-9 main-content">
+                        <div className="row">
+                            <div className="col-sm-12">
                                 <h3>About Brian</h3>
                             </div>
                         </div>
