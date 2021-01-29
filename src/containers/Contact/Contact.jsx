@@ -1,8 +1,10 @@
 import React from 'react';
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Contact = () => {
     return (
+
+
         <div className="container">
             <div className="row">
                 <div className="col-sm-9 main-content">
@@ -13,7 +15,10 @@ const Contact = () => {
                     </div>
                     <div className="row">
                         <div className="col-sm-12">
-                            <form>
+                            <form 
+                            className="container"
+                            action="https://formspree.io/f/xrgodzgz"
+                            method="post">
                                 <div className="form-group">
                                     <label for="name">Name</label>
                                     <input
