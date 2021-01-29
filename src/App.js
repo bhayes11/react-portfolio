@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 import { HashRouter as Router, Route, Switch } from "react-router-dom";
+import Navbar from './components/Navbar/Navbar';
+import Footer from './components/Footer/Footer';
 import Home from './containers/Home/Home';
 import Portfolio from './containers/Portfolio/Portfolio';
 import Contact from './containers/Contact/Contact';
@@ -10,6 +12,7 @@ function App() {
       {/* // don't need anything outside of the routes */}
       {/* <Header /> */}
       <Router basename="/">
+        <Navbar/>
         <Switch>
           <Route exact path="/" component={Home} />
           <Route exact path="/home" component={Home} />
@@ -19,6 +22,7 @@ function App() {
         below route (NoMatch) would be 404*/}
           {/* <Route component={NoMatch} /> */}
         </Switch>
+        <Footer/>
       </Router>
       {/* <Footer /> */}
     </div>
