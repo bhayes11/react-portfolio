@@ -2,9 +2,13 @@ import React from 'react';
 
 const Footer = () => {
     return (
-        <div>
-            <h1>Footer goes here</h1>
-        </div>
+        <>
+            <footer className="container-fluid" id="footer-sec">
+                <div className="row justify-content-center">
+                    <p className="nav-text">&copy; 2021 Brian Hayes</p>
+                </div>
+            </footer>
+        </>
     );
 };
 
