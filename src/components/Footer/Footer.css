@@ -1,0 +1,4 @@
+.sticky-footer {
+    border-top: 8px solid rgb(255, 255, 255);
+    flex-shrink: 0;
+  }
