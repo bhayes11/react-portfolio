@@ -5,7 +5,7 @@ const Contact = () => {
     return (
 
 
-        <div className="container">
+        <form className="container">
             <div className="row">
                 <div className="col-sm-9 main-content">
                     <div className="row">
@@ -17,7 +17,7 @@ const Contact = () => {
                         <div className="col-sm-12">
                             <form 
                             className="container"
-                            action="https://formspree.io/f/xrgodzgz"
+                            action="https://formspree.io/f/mgepqwzp"
                             method="post">
                                 <div className="form-group">
                                     <label for="name">Name</label>
@@ -25,6 +25,7 @@ const Contact = () => {
                                         type="text"
                                         className="form-control"
                                         id="name"
+                                        name="Name"
                                         placeholder="Name"
                                         aria-describedby="emailHelp"
                                     />
@@ -35,7 +36,8 @@ const Contact = () => {
                                         type="email"
                                         placeholder="Email"
                                         className="form-control"
-                                        id="exampleInputEmail1"
+                                        id="email"
+                                        name="Email"
                                         aria-describedby="emailHelp"
                                     />
                                     <small id="emailHelp" className="form-text text-muted"
@@ -43,7 +45,7 @@ const Contact = () => {
                                     >
                                     <div className="form-group">
                                         <label for="exampleFormControlTextarea1">Message</label>
-                                        <textarea className="form-control" placeholder="Message" id="exampleFormControlTextarea1" rows="3"></textarea>
+                                        <textarea className="form-control" name="Message" placeholder="Message" id="Message" rows="3"></textarea>
                                     </div>
                                 </div>
                                 <Link type="submit" className="btn btn-primary" to="/home">Submit</Link>
@@ -53,7 +55,7 @@ const Contact = () => {
                 </div>
                 <div className="col-sm-3"></div>
             </div>
-        </div>
+        </form>
     );
 };
 
