@@ -15,7 +15,7 @@ const Contact = () => {
                     </div>
                     <div className="row">
                         <div className="col-sm-12">
-                            <form 
+                            <div 
                             className="container"
                             action="https://formspree.io/f/mgepqwzp"
                             method="post">
@@ -49,7 +49,7 @@ const Contact = () => {
                                     </div>
                                 </div>
                                 <Link type="submit" className="btn btn-primary" to="/home">Submit</Link>
-                            </form>
+                            </div>
                         </div>
                     </div>
                 </div>
