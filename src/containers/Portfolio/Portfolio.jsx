@@ -6,6 +6,7 @@ import third from "../../assets/third.jpg"
 import burger from "../../assets/burger.png"
 import first from "../../assets/first.png"
 import fitness from "../../assets/fitness.png"
+import "./Portfolio.css";
 
 const Portfolio = () => {
     return (
@@ -19,7 +20,10 @@ const Portfolio = () => {
             </div>
             <div className="row">
               <div className="col-sm-6 portfolio-column">
-                <Card image={project_1} title="Project 1" description="Description" /> 
+                <Card image={project_1}/> 
+                <div>ISS Tracker</div>
+                <p className="port-text">ISS Tracker is a dynamic, responsive codebase created to actively track the location of
+                the International Space Station at all times.</p>
               </div>
               <div className="col-sm-6 portfolio-column">
                 <Card image={pro_2} title="Project 2" description="Description" /> 
