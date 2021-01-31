@@ -1,0 +1,63 @@
+body {
+    background: url("../../assets/bkground.jpg");
+  }
+  
+  h1 {
+    color: rgb(89, 89, 89);
+    border-bottom: 1px solid rgb(206, 206, 206);
+    padding-bottom: 15px;
+    padding-top: 15px;
+  }
+  
+  h3 {
+    color: rgb(146, 167, 150);
+    border-bottom: 1px solid rgb(206, 206, 206); 
+  }
+  
+  h5 {
+    color: rgb(89, 89, 89);
+    padding-left: 10px;
+    padding-right: 10px; 
+  }
+  
+  .port-text {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+  /* navbar color change */
+  .navbar-light .navbar-brand {
+    color: rgb(138, 138, 138);
+  }
+  
+  #navbar-style {
+      margin-bottom: 60px;
+  }
+  
+  /* main content box */
+  .main-content {
+    background-color: rgb(255, 255, 255);
+    padding-bottom: 40px;
+    border-radius: 8px;
+    box-shadow: 3px 3px 3px rgb(196, 196, 196);
+  }
+  
+  .main-content-port {
+    padding-bottom: 40px;
+    border-radius: 8px;
+  }
+  
+  /* this is the bio image */
+  .about-image {
+    margin-top: 10px;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+  }
+  
+  .social {
+    width: 50px;
+    height: 50px;
+    padding-right: 5px;
+  }
+  

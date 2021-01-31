@@ -1,5 +1,10 @@
 import React from 'react';
-import bio from "../../assets/bio.png"
+import bio from "../../assets/bio.png";
+import github from "../../assets/github.jpg";
+import linkedin from "../../assets/linkedin.jpg";
+import resume from "../../assets/resume.jpg";
+import Brian_Hayes_Resume from "../../assets/Brian_Hayes_Resume.pdf";
+import "./Home.css";
 
 const Home = () => {
     return (
@@ -14,7 +19,7 @@ const Home = () => {
                         </div>
                         <div className="row">
                             <div className="col-sm-12">
-                                <img className="float-left about-image" src={bio} alt="Brian Hayes" width="40%" />
+                                <img className="float-left about-image" src={bio} alt="Brian Hayes" width="40%"></img>
                                 <p>
                                 As a media and technology professional, Brian Hayes has been
                                 involved in projects ranging from video production, illustration
@@ -31,13 +36,13 @@ const Home = () => {
                                 Saturday nights or tending to his tiny garden.
                                 </p>
                             </div>
-                            <div className="card-body">
-                                <h5 className="card-title text-center">Full Stack Web developer</h5>
-                                <a href="https://www.linkedin.com/in/brian-hayes-4a723948/" className="ml-5">LinkedIn</a>
-                                <a href="https://github.com/bhayes11" className="ml-5">Github</a>
-                                <a href="./assets/Brian_Hayes_Resume.pdf" className="ml-5">Resume</a>
-                            </div>
                         </div>
+                    </div>
+                    <div className="col-sm-3">
+                        <h3>Say Hello.</h3>
+                        <a href="https://github.com/bhayes11" target="_blank"><img className="social" src={github} alt="GitHub"></img></a>
+                        <a href="https://www.linkedin.com/in/brian-hayes-4a723948/" target="_blank"><img className="social" src={linkedin} alt="LinkedIn"></img></a>
+                        <a href={Brian_Hayes_Resume} target="_blank"><img class="social" src={resume} alt="Resume"></img></a>
                     </div>
                 </div>
             </div>
