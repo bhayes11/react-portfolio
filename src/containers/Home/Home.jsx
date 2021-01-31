@@ -25,7 +25,7 @@ const Home = () => {
                                 involved in projects ranging from video production, illustration
                                 and design to mobile website development. Brian has a background
                                 in Graphic Communication from Kennesaw State University and is
-                                currently focused on becoming a MERN developer. Due to his
+                                currently focused on Full Stack Web Development. Due to his
                                 proclivity for creating things, Brian enjoys learning how to
                                 merge his artistic background with mobile development.
                                 </p>
