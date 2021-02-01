@@ -24,7 +24,7 @@ const Portfolio = () => {
                 image={project_1} 
                 title="ISS Tracker" 
                 Github="https://github.com/bhayes11/ISS-Tracker"
-                Website="https://github.com/bhayes11/ISS-Tracker"/>
+                Website="https://bhayes11.github.io/group-22-project1/"/>
               </div>
               <div className="col-sm-6 portfolio-column">
                 <Card 
