@@ -45,7 +45,7 @@ const Portfolio = () => {
               <div className="col-sm-6 portfolio-column">
               <Card 
                 image={burger} 
-                title="Burger" 
+                title="Devour A Burger" 
                 Github="https://github.com/bhayes11/burger"
                 Website="https://murmuring-sierra-76474.herokuapp.com/"/>
               </div>
