@@ -1,9 +1,26 @@
 .portfolio-image {
     margin-top: 10px;
     margin-right: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
     margin-left: 10px;
     border-radius: 8px;
-    height: 200px;
+    height: 250px;
     box-shadow: 3px 3px 3px rgb(196, 196, 196);
   }
+.card-pad {
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 60px;
+    margin-left: 0px;
+    padding-bottom: 0px;
+    padding-right: 0px;
+    height: 360px;
+}
+
+.card-title {
+    color: rgb(146, 167, 150);
+}
+
+.port-pad {
+    padding-left: 0px;
+}

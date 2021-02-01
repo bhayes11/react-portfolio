@@ -3,9 +3,9 @@ import "./Card.css";
 
 const Card = (props) => {
     return (
-        <div className="container">
-            <div classname="row">
-                <div className="col-sm-12">
+        <div className="container card-pad">
+            <div className="row">
+                <div className="col-sm-12 card-title port-pad">
                     <div className="card large-port">
                         <img src={props.image} className="card-top portfolio-image" alt={props.title}></img>
                         <div className="card-body">
