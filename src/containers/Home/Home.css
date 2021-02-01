@@ -42,10 +42,7 @@ body {
     box-shadow: 3px 3px 3px rgb(196, 196, 196);
   }
   
-  .main-content-port {
-    padding-bottom: 40px;
-    border-radius: 8px;
-  }
+
   
   /* this is the bio image */
   .about-image {
@@ -60,4 +57,3 @@ body {
     height: 50px;
     padding-right: 5px;
   }
-  
