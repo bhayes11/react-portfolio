@@ -20,29 +20,50 @@ const Portfolio = () => {
             </div>
             <div className="row">
               <div className="col-sm-6 portfolio-column">
-                <Card image={project_1}/> 
-                <div>ISS Tracker</div>
-                <p className="port-text">ISS Tracker is a dynamic, responsive codebase created to actively track the location of
-                the International Space Station at all times.</p>
+              <Card 
+                image={project_1} 
+                title="ISS Tracker" 
+                Github="https://github.com/bhayes11/ISS-Tracker"
+                Website="https://github.com/bhayes11/ISS-Tracker"/>
               </div>
               <div className="col-sm-6 portfolio-column">
-                <Card image={pro_2} title="Project 2" description="Description" /> 
-              </div>
-            </div>
-            <div className="row">
-              <div className="col-sm-6 portfolio-column">
-                <Card image={third} title="Password Generator" description="Description" /> 
-              </div>
-              <div className="col-sm-6 portfolio-column">
-                <Card image={burger} title="Burger" description="Description" /> 
+                <Card 
+                image={pro_2} 
+                title="Code Crushers: Survive The Banana Force" 
+                Github="https://github.com/bhayes11/code-crushers-survive-the-banana-force"
+                Website="https://limitless-bastion-03523.herokuapp.com/"/> 
               </div>
             </div>
             <div className="row">
               <div className="col-sm-6 portfolio-column">
-                <Card image={first} title="Work Day Scheduler" description="Description" /> 
+              <Card 
+                image={third} 
+                title="Password Generator" 
+                Github="https://github.com/bhayes11/password-generator"
+                Website="https://bhayes11.github.io/password-generator/"/>
               </div>
               <div className="col-sm-6 portfolio-column">
-                <Card image={fitness} title="Fitness Tracker" description="Description" /> 
+              <Card 
+                image={burger} 
+                title="Burger" 
+                Github="https://github.com/bhayes11/burger"
+                Website="https://murmuring-sierra-76474.herokuapp.com/"/>
+              </div>
+            </div>
+            <div className="row">
+              <div className="col-sm-6 portfolio-column">
+              <Card 
+                image={first} 
+                title="Work Day Scheduler" 
+                Github="https://github.com/bhayes11/work-day-scheduler"
+                Website="https://bhayes11.github.io/work-day-scheduler/"/>
+              </div>
+              <div className="col-sm-6 portfolio-column">
+              <Card 
+                image={fitness} 
+                title="Fitness Tracker" 
+                Github="https://github.com/bhayes11/workout-tracker"
+                Website="https://ancient-ravine-92555.herokuapp.com/?id=5ffcafdb6e0bf80017dadd47"/>
               </div>
             </div>
     

@@ -6,10 +6,12 @@ const Card = (props) => {
             <div Classname="row">
                 <div ClassName="col-sm-6 backgroundWhite">
                     <div ClassName="card">
-                        <img src={props.image} className="card-img-top" alt="..."/>
+                        <img src={props.image} className="card-img-top" alt={props.title}></img>
                         <div className="card-body">
                             <h4 className="card-title">{props.title}</h4>
-                            <p classname="card-text">{props.description}</p>
+                            <a classname="card-link" href={props.Github}>Github Repository</a>
+                            <br/>
+                            <a classname="card-link" href={props.Website}>Live Site</a>
                         </div>
                     </div>
                 </div>
