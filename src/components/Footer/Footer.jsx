@@ -24,7 +24,7 @@ const Footer = () => {
     <div>
       <div style={phantom} />
       <div style={style}>
-        <div>&copy; Copyright 2021</div>
+        <div>&copy; Copyright 2022</div>
       </div>
     </div>
   );
